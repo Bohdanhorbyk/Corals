@@ -1,0 +1,73 @@
+@font-face {
+    font-family: PiecesAlt;
+    src: url('/fonts/Pieces\ of\ Eight\ Alt.ttf');
+}
+@font-face {
+    font-family: Pieces;
+    src: url('/fonts/Pieces\ of\ Eight.ttf');
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul {
+    list-style: none;
+}
+.header__section {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 410px;
+    height: 106px;
+    border-radius: 15px;
+   
+    background-image: linear-gradient(
+                    to top,
+                    #122943 100%,
+                    #000000 100%
+                    );
+}
+.header__title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family:  Pieces, cursive;
+    font-size: 15px;
+
+}
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    padding-left: 0;
+}
+.header__link {
+    border-radius: 4px;
+}
+img {
+    background-size:cover ;
+    border-radius: 15px;
+}
+.alt1 {
+    
+    background-image: url('/img/header//header_rectangle_263-1.jpg') ;
+    width: 113px;
+    height: 33px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding-bottom: 30px;
+}
+.alt2 {
+    background-image: url('/img/header/header_2_rectangle_262-1.jpg') ;
+    width: 113px;
+    height: 33px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+
+}
