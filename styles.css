@@ -280,6 +280,166 @@ header {
 .coral-sets__img{
     border-radius: 15px;
 }
+/* 
+Богдан */
+
+/* html {
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  
+@font-face {
+	font-family: 'Pieces of Eight';
+	src: url('../fonts/Pieces of Eight Alt.eot');
+	/* src: local('☺'), url('../fonts/Pieces of Eight Alt.woff') format('woff'), url('../fonts/Pieces of Eight Alt.ttf') format('truetype'), url('../fonts/Pieces of Eight Alt.svg') format('svg'); */
+	font-weight: normal;
+	font-style: normal;
+} */
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.section {
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-image: linear-gradient( to top, #1B3350 100%, #000000 99.25%);
+}
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+}
+
+.main__section_4 {
+
+    width: 410px;
+    height: 1083px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+   
+}
+.header__title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Pieces of Eight';
+    font-style: normal;
+    text-decoration-line: underline;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 18.43px;
+    color: white;
+    line-height: 1.15;
+    margin-bottom: 10px;
+}
+
+.img-list {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 3px) / 3);
+    
+    gap: 5px;
+}
+
+.img-top{
+    border-radius: 15px;
+   border-color: #122943;
+   width:120px;
+   height:88px;
+}
+
+.button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Pieces of Eight',sans-serif;
+    font-style: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 5.03531px 5.03531px rgba(0, 0, 0, 0.25);
+    font-size: 13.25px;
+    color: white;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    background: linear-gradient(213.87deg, #264972 47.83%, #000000 99.21%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding-top: 10px;
+    padding-bottom:20px;
+    margin-left: 30px;
+    margin-right: 8px;
+}
+
+.main__section_5 {
+    
+  margin-top: 20px;
+    width: 410px;
+    height: 1280px;
+    background: linear-gradient(217.33deg, #1B3350 6.45%, #000000 99.25%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    
+
+}
+
+.img-shark-big{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    width:356px;
+    height:179px;
+    margin: 0 auto;    
+    margin-bottom: 25px;
+}
+.img-shark{
+    background: url(MantaRay.jpg);
+    filter: drop-shadow(0px 0.871279px 0.871279px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    width:175px;
+    height:88px;
+}
+
+.img-list-shark{
+    display:flex;
+    justify-content: center;
+    flex-basis: calc((100% - 20px) / 2);
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+span {
+    margin-right: 180px;
+}
+
+.main__section_6 {
+    margin-top: 20px;
+    width: 410px;
+    height: 278px;
+    background: linear-gradient(217.33deg, #1B3350 6.45%, #000000 99.25%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+
+
+
+
 /* Section review*/
 .review__title{
     font-family:  Pieces, cursive;
@@ -363,3 +523,6 @@ header {
     text-align: center;
   }
  
+
+
+
