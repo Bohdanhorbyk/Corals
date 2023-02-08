@@ -353,7 +353,6 @@ main {
     justify-content: space-between;
     flex-wrap: wrap;
     flex-basis: calc((100% - 3px) / 3);
-    
     gap: 5px;
 }
 
