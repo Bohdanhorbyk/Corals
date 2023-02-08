@@ -17,9 +17,9 @@ body {
     font-style: normal;
     color: var(--primary-text-color);
     font-family: var(--font-family-primary);
-    padding-top: 20px;
-    
+    padding-top: 20px; 
   }
+
 h1,
 h2,
 h3,
@@ -39,6 +39,8 @@ img {
   height: auto;
 }
 .section {
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 390px;
     border-radius: 15px;
     margin: 0 auto;
@@ -87,7 +89,7 @@ header {
     border-radius: 15px;
     height: 33px;
 }
-/* Section  */
+/* Section main */
 .main__title{
     font-style: normal;
     font-weight: 400;
@@ -280,8 +282,7 @@ header {
 .coral-sets__img{
     border-radius: 15px;
 }
-/* 
-Богдан */
+/* Богдан */
 
 /* html {
     box-sizing: border-box;
@@ -303,7 +304,7 @@ header {
 @font-face {
 	font-family: 'Pieces of Eight';
 	src: url('../fonts/Pieces of Eight Alt.eot');
-	/* src: local('☺'), url('../fonts/Pieces of Eight Alt.woff') format('woff'), url('../fonts/Pieces of Eight Alt.ttf') format('truetype'), url('../fonts/Pieces of Eight Alt.svg') format('svg'); */
+	src: local('☺'), url('../fonts/Pieces of Eight Alt.woff') format('woff'), url('../fonts/Pieces of Eight Alt.ttf') format('truetype'), url('../fonts/Pieces of Eight Alt.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 } */
@@ -314,21 +315,22 @@ main {
     flex-direction: column;
    
 }
-.section {
+/* .section {
+    width: 390px;
     margin: 0 auto;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-image: linear-gradient( to top, #1B3350 100%, #000000 99.25%);
-}
+} */
 .container {
+    width: 370px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 15px;
 }
 
 .main__section_4 {
-
-    width: 410px;
+    /* width: 410px; */
     height: 1083px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
@@ -363,7 +365,7 @@ main {
    height:88px;
 }
 
-.button{
+.button {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -386,8 +388,8 @@ main {
 
 .main__section_5 {
     
-  margin-top: 20px;
-    width: 410px;
+    /* margin-top: 20px; */
+    /* width: 410px; */
     height: 1280px;
     background: linear-gradient(217.33deg, #1B3350 6.45%, #000000 99.25%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -406,7 +408,7 @@ main {
     margin-bottom: 25px;
 }
 .img-shark{
-    background: url(MantaRay.jpg);
+    /* background: url(MantaRay.jpg); */
     filter: drop-shadow(0px 0.871279px 0.871279px rgba(0, 0, 0, 0.25));
     border-radius: 15px;
     width:175px;
@@ -427,8 +429,8 @@ span {
 }
 
 .main__section_6 {
-    margin-top: 20px;
-    width: 410px;
+    /* margin-top: 20px; */
+    /* width: 410px; */
     height: 278px;
     background: linear-gradient(217.33deg, #1B3350 6.45%, #000000 99.25%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -440,7 +442,7 @@ span {
 
 
 /* Section review*/
-.review__title{
+.review__title {
     font-family:  Pieces, cursive;
     text-decoration: underline;
     text-align: center;
@@ -451,7 +453,7 @@ span {
     font-size: 18px;
     line-height:1.15;
 }
-/* R eview Carusel */
+/* Review Carusel */
 .wrapper {
     background-color: #ffffff;
     position: absolute;
